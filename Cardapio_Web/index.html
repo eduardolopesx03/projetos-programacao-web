@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Restaurante Menu</title>
+</head>
+<body>
+    <h1>Escolha seu Menu</h1>
+
+    <!-- Formulário para escolha de Entrada, Prato Principal e Sobremesa -->
+    <form id="menu-form">
+        <h2>Entrada:</h2>
+        <label>
+            <input type="radio" name="entrada" value="Salada Caprese"> Salada Caprese
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="entrada" value="Sopa de Cebola"> Sopa de Cebola
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="entrada" value="Bruschetta de Tomate"> Bruschetta de Tomate
+        </label>
+
+        <h2>Prato Principal:</h2>
+        <label>
+            <input type="radio" name="prato" value="Filé Mignon ao Molho de Mostarda"> Filé Mignon ao Molho de Mostarda
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="prato" value="Risoto de Camarão"> Risoto de Camarão
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="prato" value="Frango à Parmegiana"> Frango à Parmegiana
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="prato" value="Lasanha à Bolonhesa"> Lasanha à Bolonhesa
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="prato" value="Salmão Grelhado"> Salmão Grelhado
+        </label>
+
+        <h2>Sobremesa:</h2>
+        <label>
+            <input type="radio" name="sobremesa" value="Tiramisu"> Tiramisu
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="sobremesa" value="Pudim de Leite"> Pudim de Leite
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="sobremesa" value="Sorvete de Chocolate"> Sorvete de Chocolate
+        </label>
+
+        <button type="button" onclick="mostrarMenu()">Mostrar Menu</button>
+    </form>
+
+    <!-- Div para exibir o Menu escolhido -->
+    <div id="menu">
+        <!-- Aqui serão exibidos os nomes e imagens dos pratos escolhidos -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

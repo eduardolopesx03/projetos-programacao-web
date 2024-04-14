@@ -1,0 +1,56 @@
+body {
+    background-color: #f0f0f0; /* Cor de fundo agradável */
+    font-family: Arial, sans-serif; /* Escolha uma fonte agradável */
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333; /* Cor do texto */
+}
+
+h1 {
+    margin-top: 45px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #0074d9; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 282px;
+}
+
+#menu {
+    margin-top: 20px;
+}
+
+/* CSS para as imagens do menu */
+img {
+    max-width: 300px; /* Largura máxima das imagens */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    display: block; /* Para centralizar as imagens horizontalmente */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-top: 10px; /* Adicione um pequeno espaçamento superior */
+}
+
+/* CSS para a classe "prato" */
+.prato {
+    display: inline-block; /* Exibe as divs lado a lado */
+    margin: 10px; /* Espaçamento entre os pratos */
+    text-align: center; /* Centraliza o texto e imagem */
+}
